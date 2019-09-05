@@ -1,0 +1,37 @@
+.myform__subject, .myform__email, .myform__lastname, .myform__firstname {
+  width: 99%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+h1 {
+  color: grey;
+}
+
+label {
+  color: #555;
+}
+
+.myform {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 6px;
+}
+.myform__button {
+  padding: 10px 40px;
+  border-radius: 4px;
+  color: white;
+}
+.myform__button--first {
+  background-color: blue;
+}
+.myform__button--second {
+  background-color: red;
+}
+.myform__button--third {
+  background-color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */

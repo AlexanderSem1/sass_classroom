@@ -1,0 +1,52 @@
+%form-layout{
+    width: 99%;
+        padding: 10px; 
+        border: 2px solid #ddd; 
+        border-radius: 5px; 
+        margin: 10px 0; 
+}
+
+
+h1{
+    color: grey; 
+    // @include fontSize(40px); 
+}
+
+label{
+    color: #555; 
+}
+
+
+.myform{
+    background-color: #f1f1f1; 
+    padding: 20px; 
+    border-radius: 6px; 
+
+    &__firstname{
+       @extend %form-layout;  
+    }
+    &__lastname{
+        @extend %form-layout; 
+    }
+    &__email{
+        @extend %form-layout; 
+    }
+    &__subject{
+        @extend %form-layout; 
+    }
+    &__button{
+        padding: 10px 40px; 
+        border-radius: 4px; 
+        color: white;
+        &--first{
+            background-color: blue; 
+        }
+        &--second{
+            background-color: red;
+        }
+        &--third{
+            background-color: green; 
+        }
+    }
+}
+

@@ -1,0 +1,9 @@
+// @function valueofRem($pxSize){
+//     $remSize: $pxSize/16; 
+//     @return #{$remsize}rem; 
+// }
+
+// @mixin fontSize($pxSize){
+//     font-size: $pxSize; 
+//     font-size: valueofRem(($pxSize)); 
+// }

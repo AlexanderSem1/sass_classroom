@@ -9,7 +9,7 @@
 
 h1{
     color: grey; 
-    // @include fontSize(40px); 
+    font-size: myRem(38);  
 }
 
 label{
@@ -38,6 +38,7 @@ label{
         padding: 10px 40px; 
         border-radius: 4px; 
         color: white;
+        font-size: myRem(20);
         &--first{
             background-color: blue; 
         }
